@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Awinja Nyamwalo</title>
+
+        <!-- CSS FILES -->                
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-tiya-golf-club.css" rel="stylesheet">
+        
+<!--
+
+TemplateMo 587 Tiya Golf Club
+
+https://templatemo.com/tm-587-tiya-golf-club
+
+-->
+    </head>
+    
+    <body>
+
+        <main>
+
+            <nav class="navbar navbar-expand-lg">                
+                <div class="container">
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="Tiya Golf Club">
+                        <span class="navbar-brand-text">
+                            Awinja
+                            <small>Jacky Vike</small>
+                        </span>
+                    </a>
+
+                    <div class="d-lg-none ms-auto me-3">
+                        <a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Member Login</a>
+                    </div>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">Media & Gallery</a>
+                            </li>
+
+                            
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Contact Me</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Events</a>
+
+                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#section_4">Event</a></li>
+
+                                    <li><a class="dropdown-item" href="event-listing.html">Past Events</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <div class="d-none d-lg-block ms-lg-3">
+                            <a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Member Login</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">                
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Member Login</h5>
+                    
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                
+                <div class="offcanvas-body d-flex flex-column">
+                    <form class="custom-form member-login-form" action="#" method="post" role="form">
+
+                        <div class="member-login-form-body">
+                            <div class="mb-4">
+                                <label class="form-label mb-2" for="member-login-number">Membership No.</label>
+
+                                <input type="text" name="member-login-number" id="member-login-number" class="form-control" placeholder="11002560" required>
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="form-label mb-2" for="member-login-password">Password</label>
+
+                                <input type="password" name="member-login-password" id="member-login-password" pattern="[0-9a-zA-Z]{4,10}" class="form-control" placeholder="Password" required="">
+                            </div>
+
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Remember me
+                                </label>
+                            </div>
+
+                            <div class="col-lg-5 col-md-7 col-8 mx-auto">
+                                <button type="submit" class="form-control">Login</button>
+                            </div>
+
+                            <div class="text-center my-4">
+                                <a href="#">Forgotten password?</a>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="mt-auto mb-5">
+                        <p>
+                            <strong class="text-white me-3">Any Questions?</strong>
+
+                            <a href="tel: 010-020-0340" class="contact-link">
+                            	010-020-0340
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3D405B" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+            </div>
+            
+
+            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+
+                <div class="section-overlay"></div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3D405B" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+                            <h2 class="text-white">Karibu sana</h2>
+                        
+                            <h1 class="cd-headline rotate-1 text-white mb-4 pb-2">
+                                <span>Awinja is</span>
+                                <span class="cd-words-wrapper">
+                                    <b class="is-visible">Bold</b>
+                                    <b>Authentic</b>
+                                    <b>Unapologetic</b>
+                                </span>
+                            </h1>
+                        
+                            <div class="custom-btn-group">
+                                <a href="#section_2" class="btn custom-btn smoothscroll me-3">My Story</a>
+                                <a href="#section_5" class="link smoothscroll">Contact Me</a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-12">
+                            <div class="ratio ratio-16x9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/e3gjn-SphIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+            </section>
+
+
+            <section class="about-section section-padding" id="section_2">
+                <div class="container">
+                    <div class="row">
+            
+                        <div class="col-lg-12 col-12 text-center">
+                            <h2 class="mb-lg-5 mb-4">About Awinja Nyamwalo</h2>
+                        </div>
+            
+                        <div class="col-lg-5 col-12 me-auto mb-4 mb-lg-0">
+                            <h3 class="mb-3">Jacky Vike History</h3>
+            
+                            <p><strong>Awinja Nyamwalo</strong>is Kenya's most beloved <em>househelp with attitude</em> — known for her witty comebacks,
+                                exaggerated rural charm, and iconic Luhya-English accent. She rose to fame on the hit TV show <em>Papa Shirandula</em>,
+                                where her hilarious take on everyday Nairobi life made her a household name.</p>
+            
+                                <p style="font-size: 1.1em; line-height: 1.7; color: #333;">
+                                    Behind the Awinja character is the incredibly talented <strong>Jacky Vike</strong>, an award-winning actress,
+                                    content creator, and humanitarian. Born and raised in Nairobi, Jacky has transformed Awinja from just a TV role into a cultural icon —
+                                    using humor to highlight social issues, celebrate African culture, and connect with fans across generations.
+                                  </p>
+                                  <p style="font-size: 1.1em; line-height: 1.7; color: #333;">
+                                    From acting and comedy skits to red carpet appearances and brand campaigns, Awinja continues to break boundaries while
+                                    keeping it <em>100% local, 100% funny</em>. Whether she's on stage, screen, or your social feed — one thing's for sure:
+                                    <strong>with Awinja, laughter is guaranteed.</strong>
+                                  </p></p>
+                        </div>
+            
+                        <div class="col-lg-5 col-md-6 col-12 mb-4 mb-lg-0 mb-md-0"> <!-- Changed from col-lg-3 to col-lg-5 -->
+                            <div class="member-block">
+                                <div class="member-block-image-wrap">
+                                    <img src="images/awinjapic.jpg" class="member-block-image img-fluid" alt="" style="width: 100%; max-height: 500px; object-fit: cover;">
+            
+                                    <ul class="social-icon">
+                                        <li class="social-icon-item">
+                                            <a href="#" class="social-icon-link bi-twitter"></a>
+                                        </li>
+            
+                                        <li class="social-icon-item">
+                                            <a href="#" class="social-icon-link bi-whatsapp"></a>
+                                        </li>
+                                        <li class="social-icon-item">
+                                            <a href="#" class="social-icon-link bi-youtube"></a>
+                                        </li>
+                                        <li class="social-icon-item">
+                                            <a href="#" class="social-icon-link bi-facebook"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+            
+                                <div class="member-block-info d-flex align-items-center">
+                                    <h4>Awinja Nyamwalo</h4>
+            
+                                    <p class="ms-auto">Comedian</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section-bg-image">
+                <svg viewBox="0 0 1265 144" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="rgba(255, 255, 255, 1)" d="M 0 40 C 164 40 164 20 328 20 L 328 0 L 0 0 Z" />
+                    <path fill="rgba(255, 255, 255, 1)" d="M 327 20 C 445.5 20 445.5 89 564 89 L 564 0 L 327 0 Z" />
+                    <path fill="rgba(255, 255, 255, 1)" d="M 563 89 C 724.5 89 724.5 48 886 48 L 886 0 L 563 0 Z" />
+                    <path fill="rgba(255, 255, 255, 1)" d="M 885 48 C 1006.5 48 1006.5 67 1128 67 L 1128 0 L 885 0 Z" />
+                    <path fill="rgba(255, 255, 255, 1)" d="M 1127 67 C 1196 67 1196 0 1265 0 L 1265 0 L 1127 0 Z" />
+                </svg>
+            
+                <div class="container">
+                    <div class="row">
+            
+                        <div class="col-lg-6 col-12">
+                            <div class="section-bg-image-block">
+                                <h2 class="mb-lg-3">Join Awinja’s Circle</h2>
+            
+                                <p>Stay in the loop with exclusive updates from Awinja Nyamwalo — behind the scenes, latest videos, and upcoming events.</p>
+            
+                                <form action="#" method="get" class="custom-form mt-lg-4 mt-2" role="form">
+                                    <div class="input-group input-group-lg">
+                                        <span class="input-group-text bi-envelope" id="basic-addon1"></span>
+            
+                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Enter your email" required>
+            
+                                        <button type="submit" class="form-control">Join Now</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            
+                <svg viewBox="0 0 1265 144" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="rgba(255, 255, 255, 1)" d="M 0 40 C 164 40 164 20 328 20 L 328 0 L 0 0 Z" />
+                    <path fill="rgba(255, 255, 255, 1)" d="M 327 20 C 445.5 20 445.5 89 564 89 L 564 0 L 327 0 Z" />
+                    <path fill="rgba(255, 255, 255, 1)" d="M 563 89 C 724.5 89 724.5 48 886 48 L 886 0 L 563 0 Z" />
+                    <path fill="rgba(255, 255, 255, 1)" d="M 885 48 C 1006.5 48 1006.5 67 1128 67 L 1128 0 L 885 0 Z" />
+                    <path fill="rgba(255, 255, 255, 1)" d="M 1127 67 C 1196 67 1196 0 1265 0 L 1265 0 L 1127 0 Z" />
+                </svg>
+            </section>
+            
+
+            <section class="media-gallery-section section-padding" id="section_3" style="background-color: var(--white-color);">
+                <div class="container">
+                    <div class="row">
+                        <!-- Section Header -->
+                        <div class="col-lg-12 col-12 text-center mx-auto mb-lg-5 mb-4">
+                            <h2 class="mb-3" style="color: var(--secondary-color);">
+                                <span style="color: var(--primary-color);">Media</span> & Gallery
+                            </h2>
+                            <p class="mb-0" style="color: var(--p-color);">Catch up with Awinja's funniest moments and viral skits</p>
+                        </div>
+            
+                        <!-- Video Section -->
+                        <div class="col-lg-6 col-12 mb-4">
+                            <div class="card border-0 h-100" style="background-color: var(--white-color); border-radius: var(--border-radius-medium);">
+                                <div class="card-body p-0">
+                                    <h4 class="mb-3 p-3 pb-0" style="color: var(--secondary-color);">Featured Skit</h4>
+                                    <div class="ratio ratio-16x9">
+                                        <iframe src="https://www.youtube.com/embed/e3gjn-SphIQ" 
+                                                title="Awinja Skit" 
+                                                style="border-radius: 0 0 var(--border-radius-medium) var(--border-radius-medium);"
+                                                allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            <!-- Facebook Section -->
+<div class="col-lg-6 col-12 mb-4">
+    <div class="card border-0 h-100" style="background-color: var(--white-color); border-radius: var(--border-radius-medium);">
+        <div class="card-body p-0">
+            <h4 class="mb-3 p-3 pb-0" style="color: var(--secondary-color);">Latest on Facebook</h4>
+            <div class="ratio ratio-16x9">
+                <iframe 
+                    src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2Fvideos%2F10153231379946729%2F&show_text=0&width=560" 
+                    style="border:none;overflow:hidden;border-radius: 0 0 var(--border-radius-medium) var(--border-radius-medium);" 
+                    scrolling="no" 
+                    frameborder="0" 
+                    allowfullscreen="true">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- TikTok Section -->
+<div class="col-lg-6 col-12 mb-4">
+    <div class="card border-0 h-100" style="background-color: var(--white-color); border-radius: var(--border-radius-medium);">
+        <div class="card-body p-0">
+            <h4 class="mb-3 p-3 pb-0" style="color: var(--secondary-color);">Trending on TikTok</h4>
+            <blockquote class="tiktok-embed" 
+                        cite="https://www.tiktok.com/@scout2015/video/6718335390845095173" 
+                        data-video-id="6718335390845095173" 
+                        style="border-radius: 0 0 var(--border-radius-medium) var(--border-radius-medium);">
+                <section>Loading TikTok...</section>
+            </blockquote> 
+            <script async src="https://www.tiktok.com/embed.js"></script>
+        </div>
+    </div>
+</div>
+
+                        <div class="col-lg-6 col-12 mb-4">
+                            <div class="card border-0 h-100" style="background-color: var(--white-color); border-radius: var(--border-radius-medium);">
+                              <div class="card-body p-0">
+                                <h4 class="mb-3 p-3 pb-0" style="color: var(--secondary-color);">Latest on Instagram</h4>
+                                <blockquote class="instagram-media" 
+                                            data-instgrm-permalink="https://www.instagram.com/p/DF-R3tcNGUm/" 
+                                            data-instgrm-version="14"
+                                            style="border-radius: 0 0 var(--border-radius-medium) var(--border-radius-medium);">
+                                </blockquote>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          
+            
+                        <!-- Photo Gallery -->
+                        <div class="col-12">
+                            <div class="text-center mb-4">
+                                <h4 class="mb-3" style="color: var(--secondary-color);">Photo Moments</h4>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="overflow-hidden" style="border-radius: var(--border-radius-small);">
+                                        <img src="images/awinja1.jpeg" class="img-fluid w-100" alt="Awinja on set" loading="lazy" style="transition: transform 0.3s ease;">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="overflow-hidden" style="border-radius: var(--border-radius-small);">
+                                        <img src="images/awinja2.jfif" class="img-fluid w-100" alt="Behind the scenes" loading="lazy" style="transition: transform 0.3s ease;">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="overflow-hidden" style="border-radius: var(--border-radius-small);">
+                                        <img src="images/awinja3.jfif" class="img-fluid w-100" alt="Red carpet moment" loading="lazy" style="transition: transform 0.3s ease;">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="overflow-hidden" style="border-radius: var(--border-radius-small);">
+                                        <img src="images/Awinjaa.jpg" class="img-fluid w-100" alt="Awinja portrait" loading="lazy" style="transition: transform 0.3s ease;">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="overflow-hidden" style="border-radius: var(--border-radius-small);">
+                                        <img src="images/receiving award.jpg" class="img-fluid w-100" alt="Award moment" loading="lazy" style="transition: transform 0.3s ease;">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="d-flex align-items-center justify-content-center h-100">
+                                        <a href="#" class="btn custom-btn" style="width: 100%;">View All Photos</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <style>
+                /* Simple hover effect for images */
+                .media-gallery-section img:hover {
+                    transform: scale(1.03);
+                }
+                
+                /* Instagram embed responsive fix */
+                .instagram-media {
+                    margin: 0 !important;
+                    
+                    
+                }
+            </style>
+            
+
+
+            <section class="events-section section-bg section-padding" id="section_4">
+                <div class="container">
+                    <div class="row">
+            
+                        <div class="col-lg-12 col-12">
+                            <h2 class="mb-lg-3">Awinja Nyamwalo's Upcoming Events</h2>
+                        </div>
+            
+                        <!-- Event 1 -->
+                        <div class="row custom-block mb-3">
+                            <div class="col-lg-2 col-md-4 col-12 order-2 order-md-0 order-lg-0">
+                                <div class="custom-block-date-wrap d-flex d-lg-block d-md-block align-items-center mt-3 mt-lg-0 mt-md-0">
+                                    <h6 class="custom-block-date mb-lg-1 mb-0 me-3 me-lg-0 me-md-0">15</h6>
+                                    <strong class="text-white">July 2025</strong>
+                                </div>
+                            </div>
+            
+                            <div class="col-lg-4 col-md-8 col-12 order-1 order-lg-0">
+                                <div class="custom-block-image-wrap">
+                                    <a href="event-detail.html">
+                                        <img src="images/awinja-live-show.jpg" class="custom-block-image img-fluid" alt="Awinja Live Show">
+                                        <i class="custom-block-icon bi-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+            
+                            <div class="col-lg-6 col-12 order-3 order-lg-0">
+                                <div class="custom-block-info mt-2 mt-lg-0">
+                                    <a href="event-detail.html" class="events-title mb-3">Awinja Live Comedy Night</a>
+                                    <p class="mb-0">Join Awinja Nyamwalo for an evening of laughter, storytelling, and unforgettable characters live on stage.</p>
+            
+                                    <div class="d-flex flex-wrap border-top mt-4 pt-3">
+                                        <div class="mb-4 mb-lg-0">
+                                            <div class="d-flex flex-wrap align-items-center mb-1">
+                                                <span class="custom-block-span">Location:</span>
+                                                <p class="mb-0">KICC, Nairobi</p>
+                                            </div>
+                                            <div class="d-flex flex-wrap align-items-center">
+                                                <span class="custom-block-span">Ticket:</span>
+                                                <p class="mb-0">Ksh 500</p>
+                                            </div>
+                                        </div>
+            
+                                        <div class="d-flex align-items-center ms-lg-auto">
+                                            <a href="event-detail.html" class="btn custom-btn">Buy Ticket</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Event 2 -->
+                        <div class="row custom-block custom-block-bg">
+                            <div class="col-lg-2 col-md-4 col-12 order-2 order-md-0 order-lg-0">
+                                <div class="custom-block-date-wrap d-flex d-lg-block d-md-block align-items-center mt-3 mt-lg-0 mt-md-0">
+                                    <h6 class="custom-block-date mb-lg-1 mb-0 me-3 me-lg-0 me-md-0">22</h6>
+                                    <strong class="text-white">Aug 2025</strong>
+                                </div>
+                            </div>
+            
+                            <div class="col-lg-4 col-md-8 col-12 order-1 order-lg-0">
+                                <div class="custom-block-image-wrap">
+                                    <a href="event-detail.html">
+                                        <img src="images/awinja-meet-greet.jpg" class="custom-block-image img-fluid" alt="Awinja Meet and Greet">
+                                        <i class="custom-block-icon bi-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+            
+                            <div class="col-lg-6 col-12 order-3 order-lg-0">
+                                <div class="custom-block-info mt-2 mt-lg-0">
+                                    <a href="event-detail copy.html" class="events-title mb-3">Meet & Greet with Awinja</a>
+                                    <p class="mb-0">Come meet Awinja Nyamwalo in person, take selfies, and enjoy a fun Q&A session about her journey in comedy and TV.</p>
+            
+                                    <div class="d-flex flex-wrap border-top mt-4 pt-3">
+                                        <div class="mb-4 mb-lg-0">
+                                            <div class="d-flex flex-wrap align-items-center mb-1">
+                                                <span class="custom-block-span">Location:</span>
+                                                <p class="mb-0">Westgate Mall, Nairobi</p>
+                                            </div>
+                                            <div class="d-flex flex-wrap align-items-center">
+                                                <span class="custom-block-span">Ticket:</span>
+                                                <p class="mb-0">Free Entry</p>
+                                            </div>
+                                        </div>
+            
+                                        <div class="d-flex align-items-center ms-lg-auto">
+                                            <a href="event-detail copy.html" class="btn custom-btn">View Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </section>
+            
+
+
+            <section class="contact-section section-padding" id="section_5">
+                <div class="container">
+                    <div class="row">
+            
+                        <div class="col-lg-5 col-12">
+                            <form action="#" method="post" class="custom-form contact-form" role="form">
+                                <h2 class="mb-4 pb-2">Contact Awinja Nyamwalo</h2>
+            
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div class="form-floating">
+                                            <input type="text" name="full-name" id="full-name" class="form-control" placeholder="Full Name" required>
+                                            <label for="full-name">Full Name</label>
+                                        </div>
+                                    </div>
+            
+                                    <div class="col-lg-6 col-md-6 col-12"> 
+                                        <div class="form-floating">
+                                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required>
+                                            <label for="email">Email Address</label>
+                                        </div>
+                                    </div>
+            
+                                    <div class="col-lg-12 col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" id="message" name="message" placeholder="Describe message here"></textarea>
+                                            <label for="message">Message</label>
+                                        </div>
+            
+                                        <button type="submit" class="form-control">Submit Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+            
+                        <div class="col-lg-6 col-12">
+                            <div class="contact-info mt-5">
+                                <div class="contact-info-item">
+                                    <div class="contact-info-body">
+                                        <strong>Nairobi, Kenya</strong>
+            
+                                        <p class="mt-2 mb-1">
+                                            <a href="tel:+254712345678" class="contact-link">
+                                                +254 712 345 678
+                                            </a>
+                                        </p>
+            
+                                        <p class="mb-0">
+                                            <a href="mailto:awinja@official.com" class="contact-link">
+                                                awinja@official.com
+                                            </a>
+                                        </p>
+                                    </div>
+            
+                                    <div class="contact-info-footer">
+                                        <a href="#">Get Directions</a>
+                                    </div>
+                                </div>
+            
+                                <img src="images/WorldMap.svg" class="img-fluid" alt="World Map">
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+        
+                    <div class="col-lg-6 col-12 me-auto mb-5 mb-lg-0">
+                        <a class="navbar-brand d-flex align-items-center" href="index.html">
+                            <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="Awinja Nyamwalo Logo">
+                            <span class="navbar-brand-text">
+                                Awinja Nyamwalo
+                                <small>Official Site</small>
+                            </span>
+                        </a>
+                    </div>
+        
+                    <div class="col-lg-3 col-12">
+                        <h5 class="site-footer-title mb-4">Connect</h5>
+        
+                        <p class="d-flex border-bottom pb-3 mb-3 me-lg-3">
+                            <span>Email</span>
+                            awinja@official.com
+                        </p>
+        
+                        <p class="d-flex me-lg-3">
+                            <span>Location</span>
+                            Nairobi, Kenya
+                        </p>
+                        
+                        <br>
+                        <p class="copyright-text">Copyright © 2025 Awinja Nyamwalo</p>
+                    </div>
+        
+                    <div class="col-lg-2 col-12 ms-auto">
+                        <ul class="social-icon mt-lg-5 mt-3 mb-4">
+                            <li class="social-icon-item">
+                                <a href="https://www.instagram.com/jackyvike" class="social-icon-link bi-instagram" target="_blank" rel="noopener"></a>
+                            </li>
+        
+                            <li class="social-icon-item">
+                                <a href="https://www.tiktok.com/@jackyvike" class="social-icon-link bi-tiktok" target="_blank" rel="noopener"></a>
+                            </li>
+        
+                            <li class="social-icon-item">
+                                <a href="https://wa.me/254712345678" class="social-icon-link bi-whatsapp" target="_blank" rel="noopener"></a>
+                            </li>
+                        </ul>
+                        <p class="copyright-text">Made with ❤️ by <a rel="nofollow" href="https://web.facebook.com/profile.php?id=61558110174182" target="_blank">Gichuki Kibocha</a></p>
+                    </div>
+        
+                </div>
+            </div>
+        
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#81B29A" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+            </svg>
+        </footer>
+        
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/animated-headline.js"></script>
+        <script src="js/modernizr.js"></script>
+        <script src="js/custom.js"></script>
+        <script async src="https://www.instagram.com/embed.js"></script>
+
+    </body>
+</html>
